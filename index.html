@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #222;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            margin: 5px 0;
+        }
+
+        .balance {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #333;
+            border-top: 1px solid #444;
+        }
+
+        .balance div {
+            text-align: center;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .top-users {
+            margin: 20px;
+        }
+
+        .top-users h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .user-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .user-list li {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .user-list li:last-child {
+            border-bottom: none;
+        }
+
+        .footer {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Major</h1>
+    </div>
+
+    <div class="profile-container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/80" alt="Profile 1">
+            <p>metasalience</p>
+            <p>315.8M</p>
+        </div>
+        <div class="profile">
+            <img src="https://via.placeholder.com/80" alt="Profile 2">
+            <p>mr_wcoin</p>
+            <p>313.9M</p>
+        </div>
+        <div class="profile">
+            <img src="https://via.placeholder.com/80" alt="Profile 3">
+            <p>zzzz0</p>
+            <p>263.6M</p>
+        </div>
+    </div>
+
+    <div class="balance">
+        <div>
+            <p>Your Balance</p>
+            <p>1.7M</p>
+        </div>
+        <div>
+            <p>Your Rank</p>
+            <p>28.1K</p>
+        </div>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn">Boost Your Rank</button>
+        <br><br>
+        <button class="btn">Join Squad</button>
+    </div>
+
+    <div class="top-users">
+        <h2>Top Users</h2>
+        <ul class="user-list">
+            <li><span>1. xaffizmedia</span> <span>262.3M</span></li>
+            <li><span>2. winkobet</span> <span>249.9M</span></li>
+            <li><span>3. bulkmine</span> <span>175.6M</span></li>
+            <li><span>4. mathewnguynnn</span> <span>175.4M</span></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Your profile: 28.1K</p>
+    </div>
+
+</body>
+</html>
